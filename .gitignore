@@ -1,0 +1,7 @@
+*.vssscc
+obj
+bin
+*.user
+*.vspscc
+*.suo
+packages
