@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDtcFailureRepro", "RavenDtcFailureRepro\RavenDtcFailureRepro.csproj", "{45E251FD-3F0C-464E-B710-991C450E994C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageDispatcher", "MessageDispatcher\MessageDispatcher.csproj", "{6F951CAE-52FF-4F72-8DDB-319A07E26765}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{38014519-8FB7-4351-AD36-3D251A5B7028}"
+	ProjectSection(SolutionItems) = preProject
+		RavenDB Index.txt = RavenDB Index.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E251FD-3F0C-464E-B710-991C450E994C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E251FD-3F0C-464E-B710-991C450E994C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E251FD-3F0C-464E-B710-991C450E994C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E251FD-3F0C-464E-B710-991C450E994C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F951CAE-52FF-4F72-8DDB-319A07E26765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F951CAE-52FF-4F72-8DDB-319A07E26765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F951CAE-52FF-4F72-8DDB-319A07E26765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F951CAE-52FF-4F72-8DDB-319A07E26765}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
